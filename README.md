@@ -14,7 +14,6 @@
 2. 使用super关键字，用setID函数改变构造函数。创建getID函数，用于返回每个类的属性值。name,sex等同getID。
 3. 把课组里的教师属性改为Teacher类的实例化对象，通过调用setTeacher函数的方式，将实例化后的教师，添加到实例化的课程中。
 
-
 ## 四、主要代码
 1. 创建父类Father，设为private，通过set函数给属性赋值。
 ```java
@@ -109,14 +108,16 @@ public class Course {
         c5.setTeacher(t3);
 ```
 
-## 五、运行截图
+## 五、流程图
+![](https://github.com/haaix/Java-lab3/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+
+## 六、运行截图
 **教师界面**
 ![](https://github.com/haaix/Java-lab3/blob/main/%E8%80%81%E5%B8%88%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
 <br> **学生界面**
 ![](https://github.com/haaix/Java-lab3/blob/main/%E5%AD%A6%E7%94%9F%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
 
-
-## 六、实验感想
+## 七、实验感想
 &emsp;&emsp;继承和权限是java应用非常重要的一个部分，有时候就算你能完整的运行一个程序也不见得这个程序是很好的，
 所以我们要养成一个好的习惯将程序模块化，这就用到继承了，以前没学习之前我就觉得代码怎么短怎么舒服就怎么写最好，
 但是并不是，我们用java编程不仅仅局限于实现更重要的是拓展，这样才会有更好的进补。
